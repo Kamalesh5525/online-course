@@ -1,0 +1,38 @@
+/* src/App.css */
+body {
+  background-color: #f8f9fa; /* Light background */
+  color: #343a40; /* Dark text color */
+}
+
+.container {
+  background-color: #ffffff; /* White container */
+  border-radius: 8px; /* Rounded corners */
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+h1 {
+  color: #007bff; /* Bootstrap primary color */
+}
+
+.btn-success {
+  background-color: #28a745; /* Green button */
+  border: none; /* No border */
+}
+
+.btn-success:hover {
+  background-color: #218838; /* Darker green on hover */
+}
+/* src/styles/App.css */
+.card {
+  border-radius: 8px; /* Rounded corners for the card */
+  transition: transform 0.2s; /* Smooth scaling effect */
+}
+
+.card:hover {
+  transform: scale(1.05); /* Scale effect on hover */
+}
+
+h1 {
+  color: #007bff; /* Header color */
+}
